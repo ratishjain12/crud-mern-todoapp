@@ -66,7 +66,7 @@ function Todoitem({title,id}) {
                 </form>  
                 </div>
                 <div className='flex justify-center'>
-                <button className="bg-primary p-2 mt-2 rounded-lg pl-24 text-black font-bold  pr-24" onClick={update}>Update</button>
+                <button className="bg-primary p-2 mt-2 rounded-lg pl-12 pr-12 md:pl-24 text-black font-bold  md:pr-24" onClick={update}>Update</button>
                 </div>
                
                 
