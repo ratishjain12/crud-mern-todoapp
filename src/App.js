@@ -56,7 +56,7 @@ function App() {
     </div>
     <div>
    
-    <button className="ml-5 mb-2 bg-primary w-24 lg:ml-22 rounded h-12 shadow-md" onClick={add} type="submit">
+    <button className="ml-5 mb-2 bg-primary w-24 lg:ml-22 rounded h-12 shadow-md" onClick={add} type="submit" disabled={!input}>
       ADD
     </button>
     <TodoContext.Provider value={{track,setTrack}}>
